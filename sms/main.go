@@ -23,8 +23,8 @@ func main() {
 	sp := SendSMSPayload{
 		To:         []string{"2348188469520"},
 		Message:    "Lorem ipsum d, no lele",
-		SenderName: "ASF",
-		Route:      "international",
+		SenderName: "Dash",
+		Route:      "non_dnd",
 	}
 
 	j, _ := json.Marshal(sp)
